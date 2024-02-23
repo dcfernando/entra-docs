@@ -39,8 +39,12 @@ To configure the integration of HPE Aruba Networking EdgeConnect Orchestrator in
 
 1. Sign in to the [Microsoft Entra admin center](https://entra.microsoft.com) as at least a [Cloud Application Administrator](~/identity/role-based-access-control/permissions-reference.md#cloud-application-administrator).
 1. Browse to **Identity** > **Applications** > **Enterprise applications** > **New application**.
-1. In the **Add from the gallery** section, type **HPE Aruba Networking EdgeConnect Orchestrator** in the search box.
-1. Select **HPE Aruba Networking EdgeConnect Orchestrator** from results panel and then add the app. Wait a few seconds while the app is added to your tenant.
+1. In the **Add from the gallery** section, type **HPE Aruba Networking EdgeConnect Orchestrator** in the search box:
+   ![image](https://github.com/MicrosoftDocs/entra-docs/assets/7980597/589382cc-e792-4e0b-ad24-b3755abc9c03)
+
+1. Select **HPE Aruba Networking EdgeConnect Orchestrator** from the results panel.
+2. Enter a **name** for the HPE Aruba Networking EdgeConnect Orchestrator application.
+3. Click **Create**. Wait a few seconds while the app is added to your tenant.
 
 Alternatively, you can also use the [Enterprise App Configuration Wizard](https://portal.office.com/AdminPortal/home?Q=Docs#/azureadappintegration). In this wizard, you can add an application to your tenant, add users/groups to the app, assign roles, and walk through the SSO configuration as well. [Learn more about Microsoft 365 wizards.](/microsoft-365/admin/misc/azure-ad-setup-guides)
 
@@ -62,8 +66,9 @@ To configure and test Microsoft Entra SSO with HPE Aruba Networking EdgeConnect 
 Follow these steps to enable Microsoft Entra SSO in the Microsoft Entra admin center.
 
 1. Sign in to the [Microsoft Entra admin center](https://entra.microsoft.com) as at least a [Cloud Application Administrator](~/identity/role-based-access-control/permissions-reference.md#cloud-application-administrator).
-1. Browse to **Identity** > **Applications** > **Enterprise applications** > **HPE Aruba Networking EdgeConnect Orchestrator** > **Single sign-on**.
-1. On the **Select a single sign-on method** page, select **SAML**.
+1. Browse to **Identity** > **Applications** > **Enterprise applications** > select the application that you created earlier > The **Overview** page of your HPE Aruba Networking EdgeConnect Orchestrator application opens.
+1. Under **Manage**, click **Single sign-on**.
+2. Under **Select a single sign-on method**, select **SAML**.
 1. On the **Set up single sign-on with SAML** page, click the pencil icon for **Basic SAML Configuration** to edit the settings.
 
    ![Screenshot shows how to edit Basic SAML Configuration.](common/edit-urls.png "Basic Configuration")
